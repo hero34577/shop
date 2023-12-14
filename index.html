@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f8f8f8;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 2rem 0;
+        transition: background-color 0.3s ease;
+    }
+    
+    header:hover {
+        background-color: #555;
+    }
+    
+    header h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+    
+    header p {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+    
+    section {
+        padding: 2rem 0;
+    }
+    
+    h2 {
+        color: #333;
+        margin-bottom: 1rem;
+    }
+    
+    .project {
+        margin-bottom: 2rem;
+        transition: transform 0.3s ease;
+    }
+    
+    .project:hover {
+        transform: scale(1.05);
+    }
+    
+    .project img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+    }
+    
+    .project img:hover {
+        transform: scale(1.1);
+    }
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    
+    footer p {
+        margin: 0;
+    }
+    
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .lightbox-img {
+        max-width: 80%;
+        max-height: 80%;
+        border-radius: 8px;
+    }
+    
+    /* Additional styling for links */
+    a {
+        color: #333;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    a:hover {
+        color: #555;
+    }
+    </style>
+    <title>GreenGrocers - Your Fresh Grocery Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>GreenGrocers</h1>
+            <p>Your Fresh Grocery Store</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to GreenGrocers, where we provide a wide range of fresh and high-quality groceries. Our mission is to
+                make healthy and organic food accessible to everyone.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product">
+                <img src=" c:\Users\ADMIN\Desktop\vegetables 1.jpg" width="300">
+                <h3>vegetables</h3>
+                <p>Locally sourced and organic vegetables to keep you healthy.</p>
+            </div>
+            <div class="product">
+                <img src="c:\Users\ADMIN\Desktop\vegetables 2.jpg" width="300">
+                <h3>Juicy Fruits</h3>
+                <p>Delicious and nutritious fruits for a balanced diet.</p>
+            </div>
+            <div class="product">
+                <img src="c:\Users\ADMIN\Desktop\diary products.jpg" width="300">
+                <h3>Dairy Products</h3>
+                <p>Fresh dairy products to meet your nutritional needs.</p>
+            </div>
+            <!-- Add more product sections as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Visit us at 123 Green Street, Cityville, or reach out via phone at <a href="tel:+123456789">123-456-789</a>.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 GreenGrocers. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
